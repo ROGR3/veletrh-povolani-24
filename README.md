@@ -3,13 +3,14 @@
 - [Python](https://www.python.org)
 - [Pytest](https://docs.pytest.org/en/latest/)
 - [VsCode](https://code.visualstudio.com)
-- [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+- [Python Extension? (dont know if needed)](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 
 ## Usage
 
-Tests are located only in `tests/` folder.
+Empty functions, which are defaultly used in tests, are located in `functions/` folder.
 
-Empty functions, imported in tests, are located in `functions/` folder.
+Tests are located in `tests/` folder. :D
 
-And finished functions are in `finished_functions/` folder.
-To use them, simply change the imports in the `test_*.py` files from `functions.method_name` to `finished_functions.method_name`.
+Finished functions are in `finished_functions/` folder.
+
+To use already finished functions, simply change the imports in the `test/test_*.py` files from `functions.*` to `finished_functions.*`.
