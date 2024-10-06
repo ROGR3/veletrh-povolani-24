@@ -34,6 +34,17 @@ def test_bunny_calculation_with_more_animals():
     assert number_of_bunnies == 2
 
 
+# - When asked to count all the zebras in ZOO
+# -- And there are also different species in the zoo
+# --- It should count only zebras
+def test_zebra_calculation_with_more_animals():
+    zoo = ["gorilla", "zebra", "bunny", "zebra"]
+
+    number_of_zebras = count_animals_in_zoo(zoo, "zebra")
+
+    assert number_of_zebras == 2
+
+
 # - When asked to count all the bunnies in ZOO
 # -- And the ZOO is empty
 # --- It should return a warning message
